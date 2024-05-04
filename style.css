@@ -1,0 +1,43 @@
+.center{
+    text-align: center;
+}
+body {
+    background-image: url('back1.avif'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover; /* This ensures the background image covers the entire body */
+}
+
+#body {
+    padding-top: 100px; /* Adjust this value to match the height of your navbar */
+}
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .left {
+        flex: 1;
+        text-align: left;
+    }
+
+    .right {
+        flex: 1;
+        text-align: right;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+        .right {
+            text-align: left;
+        }
+    }
+    .rounded-image {
+        border-radius: 50%; /* Make it round */
+        overflow: hidden; /* Hide any part of the image that is outside the rounded border */
+    }
+
+
+
+    
